@@ -1,0 +1,19 @@
+body{
+    background-color: darkgrey;
+    margin-left: 10%;
+}
+
+h1{
+    text-align: center;
+    color: darkred;
+    margin-bottom: 1em;
+    
+}
+
+h2{
+    color: rgb(158, 62, 30)
+}
+
+p,li{
+    color:rgb(42, 77, 144)
+}

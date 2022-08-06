@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Comandos GIT</h1>
+    <h2>git version</h2>
+    <p>Sirve para obtener información sobre la versión de git en el sistema</p>
+
+    <h2>git init</h2>
+    <p>Agrega la carpeta como repositorio</p>
+
+    <p>Al añadir el repositorio aparece una U a la derecha de nuestros archivos
+        en VS code, esto indica que no tienen seguimiento
+    </p>
+
+
+
+    <h2>git status -s</h2>
+    <p>Muestra los archivos modificados, si al hacer la consulta los marca con
+        ??, significa que los archivos no tienen seguimiento, para darles seguimiento
+        se usa git add
+    </p>
+
+    <h2>Estados de los archivos</h2>
+    <ul>
+        <li>??: Sin seguimiento</li>
+        <li>U: Con seguimiento, fuera del área temporal</li>
+        <li>A: Dentro del área temporal</li>
+        <li>M: Modificado</li>
+    </ul>
+
+    <h2>git add</h2>
+    <p>Agrega archivos al área temporal, al añadir el archivo, la U se actualiza
+        a una A
+    </p>
+
+    <h2>git commit -m "(Aquí va el mensaje)"</h2>
+    <p>Actualiza los cambios y registra el comentario</p>
+
+    <h2>git push origin master</h2>
+    <p>Carga los cambios al repositorio remoto</p>
